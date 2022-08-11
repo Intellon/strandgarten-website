@@ -1,0 +1,31 @@
+.ui-newsticker{
+	max-width:60%;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	background:#171c35;
+	color:#fff;
+	cursor:default;
+	font-weight:700;
+	font-size:13px;
+	line-height:15.6px;
+/*
+	padding:0 10px 0 10px;
+*/
+	height:30px;
+	margin: 20px auto 0 auto;
+	position:relative;
+	overflow:hidden;
+	will-change:transform
+}
+.ui-newsticker-list{
+	position:absolute;
+	overflow:hidden;
+	transition-property:transform;
+	transition-timing-function:ease
+}
+.ui-newsticker-item{
+	height:30px;
+	overflow:hidden;
+	white-space:nowrap
+}
